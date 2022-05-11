@@ -168,16 +168,39 @@ header .logo{
     color: var(--black)
 }
 
-@media (max-width: 768px)
+@media (max-width: 916px)
 {
     header{
         padding: 20px;
     }
     .main h2{
-        font-size: 4em;
+        font-size: 3.5em;
     }
     .copyrightText{
+        font-size: .9em;
         left: 20px;
+        bottom: 30px;
+    }
+}
+@media (max-width: 358px){
+    .main h2{
+        font-size: 2.5em;
+    }
+}
+
+
+@media (max-height: 850px){
+
+    .copyrightText{
+        font-size: .9em;
+        left: 10px;
+        bottom: 10px;
+    }
+}
+
+@media (max-height: 670px){
+
+    .main h2{
         bottom: 30px;
     }
 }
